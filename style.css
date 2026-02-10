@@ -1,0 +1,48 @@
+body {
+  background-color: #f5cf84;
+  color: #000000;
+  font-family: Bradley Hand ITC;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 10px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  font-size: 3em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+h2 {
+  color: #000000;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+p {
+  font-size: 1.5em;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  align-self: flex-start;
+  text-align: left;
+
+  margin-left: 20px;
+}
+
+ol {
+  align-self: flex-start;
+  text-align: left;
+  margin-left: 20px;
+}
