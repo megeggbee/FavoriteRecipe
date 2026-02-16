@@ -9,9 +9,20 @@ body {
   text-align: center;
 }
 
+.row {
+  display: flex;
+  gap: 20px; 
+}
+
+.column {
+  flex: 1; 
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
 h1 {
   color: #000000;
-  font-size: 3em;
+  font-size: 4em;
   margin-top: 20px;
   margin-bottom: 10px;
   padding-bottom: 5px;
@@ -28,7 +39,7 @@ h2 {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.7em;
   color: #000000;
   font-weight: bold;
   text-align: center;
@@ -37,12 +48,15 @@ p {
 ul {
   align-self: flex-start;
   text-align: left;
-
+  font-size: 1.3em;
   margin-left: 20px;
+  line-height: 1.8em;
 }
 
 ol {
   align-self: flex-start;
   text-align: left;
+  font-size: 1.3em;
   margin-left: 20px;
+line-height: 1.3;
 }
